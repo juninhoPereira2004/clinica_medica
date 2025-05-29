@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head th:replace="fragments/header :: head"></head>
+<body>
+<div th:replace="fragments/header :: body"></div>
+
+<h2 th:text="${#strings.isEmpty(paciente.id) ? 'Cadastrar Paciente' : 'Editar Paciente'}"></h2>
+
+<form th:action="@{/pacientes/salvar}" th:object="${paciente}" method="post" class="mt-4">
+    <input type="hidden" th:field="*{id}" />
+
+    <div class="mb-3">
+        <label for="nome" class="form-label">Nome</label>
+        <input type="text" class="form-control" id="nome" th:field="*{nome}" required />
+    </div>
+
+    <div class="mb-3">
+        <label for="cpf" class="form-label">CPF</label>
+        <input type="text" class="form-control" id="cpf" th:field="*{cpf}" required />
+    </div>
+
+    <div class="mb-3">
+        <label for="dataNascimento" class="form-label">Data de Nascimento</label>
+        <input type="date" class="form-control" id="dataNascimento" th:field="*{dataNascimento}" required />
+    </div>
+
+    <div class="mb-3">
+        <label for="telefone" class="form-label">Telefone</label>
+        <input type="text" class="form-control" id="telefone" th:field="*{telefone}" required />
+    </div>
+
+    <button type="submit" class="btn btn-success">Salvar</button>
+    <a th:href="@{/pacientes}" class="btn btn-secondary">Cancelar</a>
+</form>
+
+<div th:replace="fragments/footer :: footer"></div>
+</body>
+</html>
