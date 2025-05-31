@@ -12,15 +12,9 @@ Sistema web desenvolvido em Java com Spring Boot para gerenciamento de uma clín
 - Layout reutilizável com fragments
 - Banco de dados H2 em memória
 
-## 👨‍💻 Equipe (Alunos)
+## 👨‍💻 Equipe (Aluno)
 
 - João Espolador RA: 13780
-- Pedro Alvez RA: 12867
-- Armando Junior RA: 12766 
-- Ana Macedo RA: 7092
-- Isadora Larsen RA: 7051
-- Guilherme Borges RA: 13796
-- Antônio Soares RA: 12989
 
 ## 📦 Tecnologias utilizadas
 
@@ -35,4 +29,4 @@ Sistema web desenvolvido em Java com Spring Boot para gerenciamento de uma clín
 
 ---
 
-> Projeto realizado para a disciplina de **Desenvolvimento Web com Spring Boot**, como trabalho avaliativo em equipe.
+> Projeto realizado para a disciplina de **FRAMEWORKS DE DESENVOLVIMENTO JAVA**.
