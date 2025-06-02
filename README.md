@@ -15,6 +15,12 @@ Sistema web desenvolvido em Java com Spring Boot para gerenciamento de uma clín
 ## 👨‍💻 Equipe (Aluno)
 
 - João Espolador RA: 13780
+- Armando pereira RA: 12766
+- Isadora Larsen RA: 7051
+- Pedro Alvez RA: 12867
+- Antonio Soares RA: 12989
+- Ana Bia RA: 7092
+- Guilherme Borges RA: 13796
 
 ## 📦 Tecnologias utilizadas
 
